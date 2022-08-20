@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4918afdc-0d68-4ea2-a217-6704fe6ccbaa" name="Changes" comment="reverse program">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/MyStreamsClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4918afdc-0d68-4ea2-a217-6704fe6ccbaa" name="Changes" comment="stream program" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661014415786</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="stream program">
+      <created>1661016675418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661016675419</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +179,7 @@
     <MESSAGE value="sec" />
     <MESSAGE value="Prime number program" />
     <MESSAGE value="reverse program" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse program" />
+    <MESSAGE value="stream program" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream program" />
   </component>
 </project>
