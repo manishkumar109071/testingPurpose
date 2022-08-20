@@ -1,4 +1,4 @@
-package org.myDemoApplication.primeandReverse;
+package org.myDemoApplication.CommonProgram;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +21,7 @@ public class MyPrimeNumber {
         List<Integer> primeNumberList = new ArrayList<>();
         List<Integer> nonPrimeNumberList = new ArrayList<>();
 
-        for (int k = 0; k < 100; k++) {
+        for (int k = 50; k < 100; k++) {
             if (primeNumber.isPrime(k)) {
                 primeNumberList.add(k);
             } else {
