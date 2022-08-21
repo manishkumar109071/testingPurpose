@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4918afdc-0d68-4ea2-a217-6704fe6ccbaa" name="Changes" comment="stream program">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/PrintCollectionElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/SortTheList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/entity/EmployeeAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/entity/EmployeeDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/entity/SetEmployeeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/CalculateSecondHighestSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/StreamOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/stringRelated/MySerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/stringRelated/MySingletonClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/CommonProgram/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/CommonProgram/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/PrintCollectionElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/PrintCollectionElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,22 +59,9 @@
     "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SortTheList">
-    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.streamRelated.MyClass" />
-      <module name="MyDemoApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.myDemoApplication.streamRelated.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyStreamsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.streamRelated.MyStreamsClass" />
+  <component name="RunManager" selected="Application.CalculateSecondHighestSalary">
+    <configuration name="CalculateSecondHighestSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.streamRelated.CalculateSecondHighestSalary" />
       <module name="MyDemoApplication" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.streamRelated.StreamOperation" />
+      <module name="MyDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.myDemoApplication.streamRelated.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortTheList" />
-        <item itemvalue="Application.PrintCollectionElement" />
-        <item itemvalue="Application.MyClass" />
+        <item itemvalue="Application.CalculateSecondHighestSalary" />
+        <item itemvalue="Application.StreamOperation" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.MyStreamsClass" />
+        <item itemvalue="Application.PrintCollectionElement" />
+        <item itemvalue="Application.SortTheList" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661017064923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="stream program">
+      <created>1661066396265</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661066396265</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
