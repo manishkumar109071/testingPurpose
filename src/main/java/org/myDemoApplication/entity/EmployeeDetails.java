@@ -1,7 +1,9 @@
 package org.myDemoApplication.entity;
 
 
-public class EmployeeDetails {
+import java.io.Serializable;
+
+public class EmployeeDetails implements Serializable {
     private Integer employeeId;
     private String firstName;
     private String lastName;

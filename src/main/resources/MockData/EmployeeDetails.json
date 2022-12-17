@@ -1,102 +1,102 @@
 [
   {
-    "employeeId": "1008",
+    "employeeId": 1008,
     "firstName": "Mohit",
     "lastName": "Saxena",
     "emailAddress": "mohit@gmail.com",
     "departmentId": "DC-01",
     "technology": "JAVA",
     "dateOfJoining": "18-02-2021",
-    "salary": "15000"
+    "salary": 15000
   },
   {
-    "employeeId": "1010",
+    "employeeId": 1010,
     "firstName": "Neelkant",
     "lastName": "Tripathi",
     "emailAddress": "neelkant@gmail.com",
     "departmentId": "DC-09",
     "technology": "JAVA",
     "dateOfJoining": "18-02-2017",
-    "salary": "21000"
+    "salary": 21000
   },
   {
-    "employeeId": "1009",
+    "employeeId": 1009,
     "firstName": "Naveen",
     "lastName": "Gupta",
     "emailAddress": "naveen@gmail.com",
     "departmentId": "DC-05",
     "technology": "Oracle",
     "dateOfJoining": "18-02-2014",
-    "salary": "22000"
+    "salary": 22000
   },
   {
-    "employeeId": "1005",
+    "employeeId": 1005,
     "firstName": "Yashwant",
     "lastName": "Kushwaha",
     "emailAddress": "jashwant@gmail.com",
     "departmentId": "DC-07",
     "technology": "ERP",
     "dateOfJoining": "18-02-2000",
-    "salary": "25000"
+    "salary": 25000
   },
   {
-    "employeeId": "1003",
+    "employeeId": 1003,
     "firstName": "Sunil",
     "lastName": "Dutt",
     "emailAddress": "sunil@gmail.com",
     "departmentId": "DC-09",
     "technology": "React",
     "dateOfJoining": "18-02-2009",
-    "salary": "32000"
+    "salary": 32000
   },
   {
-    "employeeId": "1006",
+    "employeeId": 1006,
     "firstName": "Yuvaraj",
     "lastName": "Banarse",
     "emailAddress": "yovaraj@gmail.com",
     "departmentId": "DC-05",
     "technology": "ERP",
     "dateOfJoining": "18-02-2011",
-    "salary": "33000"
+    "salary": 33000
   },
   {
-    "employeeId": "1001",
+    "employeeId": 1001,
     "firstName": "Manish",
     "lastName": "Kumar",
     "emailAddress": "manish@gmail.com",
     "departmentId": "DC-01",
     "technology": "JAVA",
     "dateOfJoining": "18-02-2020",
-    "salary": "35000"
+    "salary": 35000
   },
   {
-    "employeeId": "1007",
+    "employeeId": 1007,
     "firstName": "Ashish",
     "lastName": "Bandi",
     "emailAddress": "ashish@gmail.com",
     "departmentId": "DC-01",
     "technology": "Angular",
     "dateOfJoining": "18-02-2001",
-    "salary": "40000"
+    "salary": 40000
   },
   {
-    "employeeId": "1002",
+    "employeeId": 1002,
     "firstName": "Madhur",
     "lastName": "Bhandarkar",
     "emailAddress": "madhur@gmail.com",
     "departmentId": "DC-01",
     "technology": "ERP",
     "dateOfJoining": "12-02-2010",
-    "salary": "45000"
+    "salary": 45000
   },
   {
-    "employeeId": "1004",
+    "employeeId": 1004,
     "firstName": "Kedar",
     "lastName": "Jadhav",
     "emailAddress": "kedar@gmail.com",
     "departmentId": "DC-08",
     "technology": "Angular",
     "dateOfJoining": "18-02-2002",
-    "salary": "56000"
+    "salary": 56000
   }
 ]
