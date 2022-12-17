@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4918afdc-0d68-4ea2-a217-6704fe6ccbaa" name="Changes" comment="stream program">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/entity/EmployeeAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/entity/EmployeeDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/entity/SetEmployeeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/CalculateSecondHighestSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/StreamOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/stringRelated/MySerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/stringRelated/MySingletonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/utility/ReadMockJsonData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MockData/EmployeeDetails.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/PrintCollectionElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/PrintCollectionElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/entity/SetEmployeeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/entity/SetEmployeeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/CalculateSecondHighestSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/CalculateSecondHighestSalary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +48,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.CalculateSecondHighestSalary">
+}</component>
+  <component name="RunManager" selected="Application.ReadMockJsonData">
     <configuration name="CalculateSecondHighestSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.streamRelated.CalculateSecondHighestSalary" />
       <module name="MyDemoApplication" />
@@ -73,12 +70,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintCollectionElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.streamRelated.PrintCollectionElement" />
+    <configuration name="MyPrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.CommonProgram.MyPrimeNumber" />
       <module name="MyDemoApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.myDemoApplication.streamRelated.*" />
+          <option name="PATTERN" value="org.myDemoApplication.CommonProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadMockJsonData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.utility.ReadMockJsonData" />
+      <module name="MyDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.myDemoApplication.utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,19 +102,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.myDemoApplication.CommonProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortTheList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.streamRelated.SortTheList" />
-      <module name="MyDemoApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.myDemoApplication.streamRelated.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculateSecondHighestSalary" />
+        <item itemvalue="Application.ReadMockJsonData" />
+        <item itemvalue="Application.MyPrimeNumber" />
         <item itemvalue="Application.StreamOperation" />
+        <item itemvalue="Application.CalculateSecondHighestSalary" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.PrintCollectionElement" />
-        <item itemvalue="Application.SortTheList" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661066396265</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="stream program">
+      <created>1661099426701</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661099426701</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

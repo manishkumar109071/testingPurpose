@@ -16,7 +16,6 @@ public class SetEmployeeData {
                 new EmployeeDetails(1008, "Mohit", "Saxena", "mohit@gmail.com", "DC-01", "JAVA", "18-02-2021", 15000L),
                 new EmployeeDetails(1009, "Naveen", "Gupta", "naveen@gmail.com", "DC-05", "Oracle", "18-02-2014", 22000L),
                 new EmployeeDetails(1010, "Neelkant", "Tripathi", "neelkant@gmail.com", "DC-09", "JAVA", "18-02-2017", 21000L)
-
         );
         return emplist;
     }
