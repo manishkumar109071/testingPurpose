@@ -1,6 +1,7 @@
 package org.myDemoApplication.streamRelated;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -38,7 +39,7 @@ public class MyStreamsClass {
 
 
         System.out.println("Second Highest Number in the list" + numberList);
-        Integer highestNumber = numberList.stream().sorted(Comparator.reverseOrder()).skip(1).findFirst().get();
+        Integer highestNumber = numberList.stream().sorted(Collections.reverseOrder()).skip(1).findFirst().get();
 
         System.out.println(highestNumber);
 

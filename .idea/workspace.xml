@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4918afdc-0d68-4ea2-a217-6704fe6ccbaa" name="Changes" comment="stream program">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/entity/EmployeeDetailsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/myStream/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/myStream/EmployeeDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/myStream/MyTestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/entity/EmployeeDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/entity/EmployeeDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/utility/ReadMockJsonData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/utility/ReadMockJsonData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MockData/EmployeeDetails.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MockData/EmployeeDetails.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/CalculateSecondHighestSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/CalculateSecondHighestSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/MyStreamsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/MyStreamsClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +55,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyPrimeNumber">
+  <component name="RunManager" selected="Application.MyClass">
     <configuration name="CalculateSecondHighestSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.streamRelated.CalculateSecondHighestSalary" />
       <module name="MyDemoApplication" />
@@ -70,12 +72,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyPrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.CommonProgram.MyPrimeNumber" />
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.interview.MyClass" />
       <module name="MyDemoApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.myDemoApplication.CommonProgram.*" />
+          <option name="PATTERN" value="org.myDemoApplication.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStreamsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.streamRelated.MyStreamsClass" />
+      <module name="MyDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.myDemoApplication.streamRelated.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.myStream.MyTestClass" />
+      <module name="MyDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.myDemoApplication.myStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,39 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.CommonProgram.ReverseString" />
-      <module name="MyDemoApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.myDemoApplication.CommonProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.streamRelated.StreamOperation" />
-      <module name="MyDemoApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.myDemoApplication.streamRelated.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyPrimeNumber" />
+        <item itemvalue="Application.MyClass" />
+        <item itemvalue="Application.MyStreamsClass" />
+        <item itemvalue="Application.MyTestClass" />
         <item itemvalue="Application.CalculateSecondHighestSalary" />
         <item itemvalue="Application.ReadMockJsonData" />
-        <item itemvalue="Application.StreamOperation" />
-        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -217,5 +219,9 @@
     <MESSAGE value="reverse program" />
     <MESSAGE value="stream program" />
     <option name="LAST_COMMIT_MESSAGE" value="stream program" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
