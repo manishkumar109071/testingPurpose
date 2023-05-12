@@ -3,7 +3,7 @@ package org.myDemoApplication.interview;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class MyClass {
+public class MyClass{
     public static void main(String[] args) {
 
         Map<String,Integer> hasMap=new HashMap<>();
@@ -13,12 +13,25 @@ public class MyClass {
         hasMap.put("five", 5);
         hasMap.put("Three", 3);
 
+        String name="manishkumarverma";
+        Map<Character, Long> ss= name.chars().mapToObj(ch-> (char) ch).collect(Collectors.groupingBy(ch-> ch, Collectors.counting()));
+        System.out.println(ss);
+
         List<Integer> numberList =List.of(23,34,12,9,56,76,43);
+        //numberList.stream().min(Comparator.comparing(Integer::valueOf));
         List<Employee> employeeList=List.of(new Employee("manish","JAVA", 25000),
                 new Employee("manish","JAVA", 26000),
                 new Employee("Kedar",".NET", 24000),
                 new Employee("Jugal","JAVA", 22000),
                 new Employee("Jayant",".NET", 23000));
+
+
+
+        Map<String, Integer> zz= employeeList.stream().collect(Collectors.toMap(x-> x.getDepartment(), x-> x.getSalary()));
+
+
+        Map<Object, Long> hello=  employeeList.stream().collect(Collectors.groupingBy(x->x.getDepartment(),Collectors.counting()));
+
 
         //Sorting list of object
         List<String> emp1= employeeList.stream()

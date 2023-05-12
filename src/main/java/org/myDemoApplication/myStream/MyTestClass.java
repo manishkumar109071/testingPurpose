@@ -10,6 +10,9 @@ public class MyTestClass {
         Optional<Integer> salary= stringList.stream().sorted(Comparator.reverseOrder()).skip(1).findFirst();
         System.out.println(salary);
 
+        Employee employee=new Employee();
+        employee.getDepartment();
+
         List<Employee> employeeList=EmployeeDetails.getEmployee();
         System.out.println(employeeList);
         Map<String, Long> emp= employeeList.stream()

@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4918afdc-0d68-4ea2-a217-6704fe6ccbaa" name="Changes" comment="stream program">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/myStream/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/myStream/EmployeeDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/myStream/MyTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/CommonProgram/MyStringClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/builderPattern/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/builderPattern/EmployeeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/builderPattern/TestEmployeeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/defaultMethod/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/defaultMethod/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/defaultMethod/MyInterface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/entity/MyEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/InterviewQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/MyStringClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/StringManipulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/CalculateSecondHighestSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/CalculateSecondHighestSalary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/MyStreamsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/streamRelated/MyStreamsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/myStream/MyTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/myStream/MyTestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,7 +51,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2DcZ0LynPdNRxzeS7IJZVyAEdYd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -58,22 +67,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyClass">
-    <configuration name="CalculateSecondHighestSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.streamRelated.CalculateSecondHighestSalary" />
-      <module name="MyDemoApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.myDemoApplication.streamRelated.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.interview.MyClass" />
+  <component name="RunManager" selected="Application.ReverseString">
+    <configuration name="InterviewQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.interview.InterviewQuestion" />
       <module name="MyDemoApplication" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStreamsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.streamRelated.MyStreamsClass" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.CommonProgram.ReverseString" />
       <module name="MyDemoApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.myDemoApplication.streamRelated.*" />
+          <option name="PATTERN" value="org.myDemoApplication.CommonProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.myStream.MyTestClass" />
+    <configuration name="StringManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.interview.StringManipulation" />
       <module name="MyDemoApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.myDemoApplication.myStream.*" />
+          <option name="PATTERN" value="org.myDemoApplication.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadMockJsonData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.utility.ReadMockJsonData" />
+    <configuration name="TestEmployeeBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.builderPattern.TestEmployeeBuilder" />
       <module name="MyDemoApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.myDemoApplication.utility.*" />
+          <option name="PATTERN" value="org.myDemoApplication.builderPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.myDemoApplication.defaultMethod.MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.defaultMethod.MyClass" />
+      <module name="MyDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.myDemoApplication.defaultMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyClass" />
-        <item itemvalue="Application.MyStreamsClass" />
-        <item itemvalue="Application.MyTestClass" />
-        <item itemvalue="Application.CalculateSecondHighestSalary" />
-        <item itemvalue="Application.ReadMockJsonData" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.StringManipulation" />
+        <item itemvalue="Application.TestEmployeeBuilder" />
+        <item itemvalue="Application.InterviewQuestion" />
+        <item itemvalue="Application.org.myDemoApplication.defaultMethod.MyClass" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671284728937</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="stream program">
+      <created>1681325609519</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681325609519</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
