@@ -1,11 +1,13 @@
 package org.myDemoApplication.interview;
 
 import java.util.*;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class InterviewQuestion {
 
     public static void main(String[] args) {
+
 
         List<Employee> employeeList=new ArrayList<>();
         employeeList.add(new Employee("Kedar", "JAVA", 26000));

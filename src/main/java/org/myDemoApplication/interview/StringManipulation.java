@@ -1,7 +1,6 @@
 package org.myDemoApplication.interview;
 
-import java.util.Arrays;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class StringManipulation {
@@ -18,5 +17,17 @@ public class StringManipulation {
         Map<Character, Long> characterLongMap =str.chars().mapToObj(ch-> (char)ch)
                 .collect(Collectors.groupingBy(ch->  ch, Collectors.counting()));
         System.out.println(characterLongMap);
+
+        // flat map example
+        List<Integer> list1=List.of(1,3,4,5);
+        List<Integer> list2=List.of(6,7,8,9);
+        List<List<Integer>> finalList=List.of(list1,list2);
+        List<Integer> flatList = finalList.stream()
+                .flatMap(x-> x.stream())
+                .sorted(Collections.reverseOrder())
+                .collect(Collectors.toList());
+        System.out.println(flatList);
+
+
     }
 }
