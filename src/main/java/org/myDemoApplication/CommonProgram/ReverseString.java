@@ -10,8 +10,15 @@ public class ReverseString {
         return revString;
     }
 
+
+
     public static void main(String[] args) {
-        ReverseString reverseString = new ReverseString();
-        reverseString.reverseString("Manish Kumar");
+
+        String name="manish kumar";
+        int i=name.length();
+        while(i>0)
+            System.out.print(name.charAt(i-1));
+            i--;
+        }
     }
-}
+

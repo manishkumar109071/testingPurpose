@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4918afdc-0d68-4ea2-a217-6704fe6ccbaa" name="Changes" comment="stream program">
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryDesignPattern/EmailNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryDesignPattern/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryDesignPattern/NotificationFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryDesignPattern/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryDesignPattern/PushNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryDesignPattern/SmsNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/EvenNumberClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/EvenOddNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/MyNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/OddNumberClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/myInterviewQuestion/MyInterviewQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/myInterviewQuestion/MyRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/MyRecursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/InterviewQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/InterviewQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/StringManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/StringManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/CommonProgram/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/CommonProgram/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/MyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myDemoApplication/interview/MyNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +50,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
-  <component name="RunManager" selected="Application.MyNumbers">
-    <configuration name="EvenOddNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.interview.EvenOddNumber" />
+}]]></component>
+  <component name="RunManager" selected="Application.MyInterviewQuestion">
+    <configuration name="MyInterviewQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.myInterviewQuestion.MyInterviewQuestion" />
+      <module name="MyDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.myDemoApplication.myInterviewQuestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.interview.MyNumbers" />
       <module name="MyDemoApplication" />
       <extension name="coverage">
         <pattern>
@@ -80,19 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyClass" />
-      <module name="MyDemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.interview.MyNumbers" />
+    <configuration name="MyRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.MyRecursion" />
       <module name="MyDemoApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.myDemoApplication.interview.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.interview.StringManipulation" />
+    <configuration name="org.myDemoApplication.myInterviewQuestion.MyRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myDemoApplication.myInterviewQuestion.MyRecursion" />
       <module name="MyDemoApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.myDemoApplication.interview.*" />
+          <option name="PATTERN" value="org.myDemoApplication.myInterviewQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyNumbers" />
-        <item itemvalue="Application.MyClass" />
-        <item itemvalue="Application.EvenOddNumber" />
-        <item itemvalue="Application.StringManipulation" />
+        <item itemvalue="Application.MyInterviewQuestion" />
+        <item itemvalue="Application.org.myDemoApplication.myInterviewQuestion.MyRecursion" />
+        <item itemvalue="Application.MyRecursion" />
         <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.MyNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683907681174</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="stream program">
+      <created>1684175357226</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684175357226</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
